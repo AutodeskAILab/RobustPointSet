@@ -3,7 +3,6 @@ A benchmark dataset to facilitate augmentation-independent robustness analysis o
 
 <div align="center">
 <img src="https://github.com/AutodeskAILab/RobustPointSet/blob/main/RobustPointSet.png" width="800" height="550">
-<p>Perfectly balanced</p>
 </div>
 
 --------------
