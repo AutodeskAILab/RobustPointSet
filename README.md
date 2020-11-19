@@ -18,12 +18,20 @@ For this strategy, we train on `train_original.npy` without applying any data-au
 For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy` ones), and test on the test set (i.e. `test_*.npy` ) of the taken-out group. We repeat this process for all the groups. For example, we train with concatenation of `{train_original.npy, train_noise.npy, train_missing_part.npy, train_occlusion.npy, train_rotation.npy, train_sparse.npy}` and test on `test_translate.npy`. Similar to strategy 1, we don't apply any data-augmentation here. For both the strategies, the same label files can be used i.e. `labels_train.npy` and `lables_test.npy`.
 
 -----------------
+
+Publication 
+
+[RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Models]()
+
+Citation info here
+
+-----------------
 ### Download
 The `.zip` file of the dataset can be accessed [here](https://github.com/AutodeskAILab/RobustPointSet/releases/tag/v1.0).
 
 -----------------
+### License
 
-
-This dataset is provided for the convenience of academic research only, and is provided without any representations or warranties, including warranties of non-infringement or fitness for a particular purpose. Please cite the following paper if you use the dataset in your research. 
+Please refer to the [dataset license](https://github.com/AutodeskAILab/RobustPointSet/blob/main/LICENSE.md).
 
 
