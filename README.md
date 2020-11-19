@@ -1,7 +1,8 @@
 # RobustPointSet
-A benchmark dataset to facilitate augmentation-independent robustness analysis of point cloud classification models. RobustPointSet comes with 6 different transformation: Noise, Translation, Missing part, Sparse, Rotation, and Occlusion. 
+A benchmark dataset to facilitate augmentation-independent robustness analysis of point cloud classification models. RobustPointSet comes with 6 different transformation: Noise, Translation, Missing part, Sparse, Rotation, and Occlusion.
 
-![alt text](https://github.com/AutodeskAILab/RobustPointSet/blob/main/RobustPointSet.png?raw=true)
+<img src="https://github.com/AutodeskAILab/RobustPointSet/blob/main/RobustPointSet.png" width="800" height="550">
+
 
 --------------
 
