@@ -21,7 +21,7 @@ For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy`
 
 ### Publication 
 
-[RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Models]()
+[RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers]()
 
 Citation info here
 
