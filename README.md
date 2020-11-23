@@ -26,7 +26,7 @@ Citation info here
 
 -----------------
 ### Download
-The `.zip` file of the dataset can be accessed [here](https://github.com/AutodeskAILab/RobustPointSet/releases/tag/v1.0).
+The dateset consists of two parts: [Part I](https://github.com/AutodeskAILab/RobustPointSet/releases/download/v1.0/RobustPointSet.z01) and [Part II](https://github.com/AutodeskAILab/RobustPointSet/releases/download/v1.0/RobustPointSet.zip). Please download both parts and unzip Part I, which will automatically extract the two parts into the same folder. 
 
 -----------------
 ### License
