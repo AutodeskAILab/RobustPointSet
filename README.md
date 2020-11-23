@@ -5,7 +5,6 @@ A benchmark dataset to facilitate augmentation-independent robustness analysis o
 <img src="https://github.com/AutodeskAILab/RobustPointSet/blob/main/RobustPointSet.png" width="800" height="320">
 </div>
 
---------------
 
 ### Evaluation Strategies
 
