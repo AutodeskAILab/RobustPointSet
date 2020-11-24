@@ -20,10 +20,15 @@ For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy`
 
 ### Publication 
 
-[RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers]()
-
-Citation info here
-
+[RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers](https://arxiv.org/abs/2011.11572)
+```
+@article{taghanaki2020robustpointset,
+      title={RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers}, 
+      author={Saeid Asgari Taghanaki and Jieliang Luo and Ran Zhang and Ye Wang and Pradeep Kumar Jayaraman and Krishna Murthy Jatavallabhula},
+      year={2020},
+      journal={arXiv preprint arXiv:2011.11572}
+}
+```
 -----------------
 ### Download
 The dateset consists of two parts: [Part I](https://github.com/AutodeskAILab/RobustPointSet/releases/download/v1.0/RobustPointSet.z01) and [Part II](https://github.com/AutodeskAILab/RobustPointSet/releases/download/v1.0/RobustPointSet.zip). Please download both parts and unzip Part I, which will automatically extract the two parts into the same folder. 
