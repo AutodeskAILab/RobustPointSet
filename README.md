@@ -33,12 +33,30 @@ For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy`
 |General      | Relation-Shape-CNN  |   91.77   |   48.06   |    91.29    |  **85.98**   |   23.18   |  11.51   |   75.61   |   61.06   |
 |RotInv      | SPHnet              |   79.18   |   7.22    |  **79.18**  |     4.22     |   1.26    |  79.18   |   34.33   |   40.65   |
 |RotInv      | PRIN                |   73.66   |   30.19   |    41.21    |    44.17     |   4.17    |  68.56   |   31.56   |   41.93   |
+Table 1:  Training-domain validation results on our RobustPointSet test sets. The *Noise* column, for example, shows the result of training on the *Original* train set and testing with the *Noise* test set. RotInv refers to rotation-invariant models.
+
+| Type | Method              | Original  |   Noise   | Translation | Missing part |  Sparse   | Rotation  | Occlusion |  Average  |
+|:----:|:--------------------|:---------:|:---------:|:-----------:|:------------:|:---------:|:---------:|:---------:|:---------:|
+|General      | PointNet            |   88.35   |   72.61   |    81.53    |    82.87     | **69.28** |   9.42    |   35.96   | **62.86** |
+|General      | PointNet++ (MSG)    |   91.55   |   50.92   |    91.43    |    77.16     |   16.19   |   12.26   | **70.39** |   58.56   |
+|General      | PointNet++ (SSG)    |   91.76   |   49.33   |    91.10    |    78.36     |   16.72   |   11.27   |   68.33   |   58.12   |
+|General      | DGCNN               | **92.38** |   66.95   |    91.17    |    85.40     |   6.49    |   14.03   |   68.79   |   60.74   |
+|General      | PointMask           |   88.03   | **73.95** |    80.80    |    82.83     |   63.64   |   8.97    |   36.69   |   62.13   |
+|General      | DensePoint          |   91.00   |   42.38   |    90.64    |    85.70     |   20.66   |   8.55    |   47.89   |   55.26   |
+|General      | PointCNN            |   88.91   |   73.10   |    87.46    |    82.06     |   7.18    |   13.95   |   52.66   |   57.90   |
+|General      | PointConv           |   91.07   |   66.19   |  **91.51**  |    84.01     |   19.63   |   11.62   |   44.07   |   58.30   |
+|General      | Relation-Shape-CNN  |   90.52   |   36.95   |    91.33    |  **85.82**   |   24.59   |   8.23    |   60.09   |   56.79   |
+|RotInv      | SPHnet              |   79.30   |   8.24    |    76.02    |    17.94     |   6.33    | **78.86** |   35.96   |   43.23   |
+|RotInv      | PRIN                |   76.54   |   55.35   |    56.36    |    59.20     |   4.05    |   73.30   |   36.91   |   51.67   |
+Table 2:  Leave-one-out validation strategy classification results on our RobustPointSet test sets.  For example, the *Noise* column  shows  the  result  of  training  on *{Original, Translation, Missing part, Sparse, Rotation,Occlusion}* train sets and testing with the *Noise* test set. RotInv refers to rotation-invariant models.
 
 -----------------
 
 ### Publication 
 
 [RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers](https://arxiv.org/abs/2011.11572)
+
+If you find this dataset useful in your research, please consider citing:
 ```
 @article{taghanaki2020robustpointset,
       title={RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers}, 
