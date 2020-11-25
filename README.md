@@ -56,9 +56,10 @@ Table 2:  Leave-one-out validation strategy classification results on our Robust
 
 ### Publication 
 
+Please cite the paper below if you use the Robust Point Set dataset in your research.
+
 [RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers](https://arxiv.org/abs/2011.11572)
 
-If you find this dataset useful in your research, please consider citing:
 ```
 @article{taghanaki2020robustpointset,
       title={RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers}, 
