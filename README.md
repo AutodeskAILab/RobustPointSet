@@ -18,6 +18,24 @@ For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy`
 
 -----------------
 
+### Benchmarks 
+
+| Type | Method              | Original  |   Noise   | Translation | Missing part |  Sparse   | Rotation | Occlusion |  Average  |
+|:----:|:--------------------|:---------:|:---------:|:-----------:|:------------:|:---------:|:--------:|:---------:|:---------:|
+|General   | PointNet            |   89.06   | **74.72** |    79.66    |    81.52     | **60.53** |   8.83   |   39.47   | **61.97** |
+|General      | PointNet++ (MSG)    |   91.27   |   5.73    |    91.31    |    53.69     |   6.65    |  13.02   |   64.18   |   46.55   |
+|General      | PointNet++ (SSG)    |   91.47   |   14.90   |    91.07    |    50.24     |   8.85    |  12.70   |   70.23   |   48.49   |
+|General      | DGCNN               | **92.52** |   57.56   |  **91.99**  |    85.40     |   9.34    |  13.43   | **78.72** |   61.28   |
+|General      | PointMask           |   88.53   |   73.14   |    78.20    |    81.48     |   58.23   |   8.02   |   39.18   |   60.97   |
+|General      | DensePoint          |   90.96   |   53.28   |    90.72    |    84.49     |   15.52   |  12.76   |   67.67   |   59.40   |
+|General      | PointCNN            |   87.66   |   45.55   |    82.85    |    77.60     |   4.01    |  11.50   |   59.50   |   52.67   |
+|General      | PointConv           |   91.15   |   20.71   |    90.99    |    84.09     |   8.65    |  12.38   |   45.83   |   50.54   |
+|General      | Relation-Shape-CNN  |   91.77   |   48.06   |    91.29    |  **85.98**   |   23.18   |  11.51   |   75.61   |   61.06   |
+|RotInv      | SPHnet              |   79.18   |   7.22    |  **79.18**  |     4.22     |   1.26    |  79.18   |   34.33   |   40.65   |
+|RotInv      | PRIN                |   73.66   |   30.19   |    41.21    |    44.17     |   4.17    |  68.56   |   31.56   |   41.93   |
+
+-----------------
+
 ### Publication 
 
 [RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers](https://arxiv.org/abs/2011.11572)
