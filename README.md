@@ -20,7 +20,9 @@ For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy`
 
 ### Benchmarks 
 
-#### Table 1:  Training-domain validation results on our RobustPointSet test sets. The *Noise* column, for example, shows the result of training on the *Original* train set and testing with the *Noise* test set. RotInv refers to rotation-invariant models.
+Table 1:  Training-domain validation results on our RobustPointSet test sets. The *Noise* column, for example, shows the result of training on the *Original* train set and testing with the *Noise* test set. RotInv refers to rotation-invariant models.
+
+
 
 | Type | Method              | Original  |   Noise   | Translation | Missing part |  Sparse   | Rotation | Occlusion |  Average  |
 |:----:|:--------------------|:---------:|:---------:|:-----------:|:------------:|:---------:|:--------:|:---------:|:---------:|
@@ -36,9 +38,10 @@ For this strategy, each time we concatenate 6 train sets (i.e. the `train_*.npy`
 |RotInv       | SPHnet              |   79.18   |   7.22    |  **79.18**  |     4.22     |   1.26    |  79.18   |   34.33   |   40.65   |
 |RotInv       | PRIN                |   73.66   |   30.19   |    41.21    |    44.17     |   4.17    |  68.56   |   31.56   |   41.93   |
 
+
 ----------------
 
-#### Table 2:  Leave-one-out validation strategy classification results on our RobustPointSet test sets.  For example, the *Noise* column  shows  the  result  of  training  on *{Original, Translation, Missing part, Sparse, Rotation,Occlusion}* train sets and testing with the *Noise* test set. RotInv refers to rotation-invariant models.
+Table 2:  Leave-one-out validation strategy classification results on our RobustPointSet test sets.  For example, the *Noise* column  shows  the  result  of  training  on *{Original, Translation, Missing part, Sparse, Rotation,Occlusion}* train sets and testing with the *Noise* test set. RotInv refers to rotation-invariant models.
 
 
 | Type | Method              | Original  |   Noise   | Translation | Missing part |  Sparse   | Rotation  | Occlusion |  Average  |
