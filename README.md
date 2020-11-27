@@ -70,7 +70,7 @@ Please cite the paper below if you use RobustPointSet in your research.
 ```
 @article{taghanaki2020robustpointset,
       title={RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers}, 
-      author={Taghanaki, {Saeid Asgari} and Luo, Jieliang and Zhang, Ran and Wang, Ye and Jayaraman, {Pradeep Kumar} and Jatavallabhula, {Krishna Murthy}},
+      author={{Asgari Taghanaki}, Saeid and Luo, Jieliang and Zhang, Ran and Wang, Ye and Jayaraman, {Pradeep Kumar} and Jatavallabhula, {Krishna Murthy}},
       year={2020},
       journal={arXiv preprint arXiv:2011.11572}
 }
