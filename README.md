@@ -80,6 +80,20 @@ Please cite the paper below if you use RobustPointSet in your research.
 The dateset consists of two parts: [Part I](https://github.com/AutodeskAILab/RobustPointSet/releases/download/v1.0/RobustPointSet.z01) and [Part II](https://github.com/AutodeskAILab/RobustPointSet/releases/download/v1.0/RobustPointSet.zip). Please download both parts and unzip Part I, which will automatically extract the two parts into the same folder. 
 
 -----------------
+### Reference 
+We use the following implementations with minor modifications for our evaluations.
+
+* PointNet: [https://github.com/TianzhongSong/PointNet-Keras](https://github.com/TianzhongSong/PointNet-Keras)
+* PointNet++: [https://github.com/yanx27/Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
+* DGCNN: [https://github.com/WangYueFt/dgcnn](https://github.com/WangYueFt/dgcnn)
+* DensePoint: [https://github.com/Yochengliu/DensePoint](https://github.com/Yochengliu/DensePoint)
+* PointCNN: [https://github.com/hxdengBerkeley/PointCNN.Pytorch](https://github.com/hxdengBerkeley/PointCNN.Pytorch)
+* PointConv: [https://github.com/DylanWusee/pointconv_pytorch](https://github.com/DylanWusee/pointconv_pytorch)
+* Relation-Shape-CNN: [https://github.com/Yochengliu/Relation-Shape-CNN](https://github.com/Yochengliu/Relation-Shape-CNN)
+* SPHnet: [https://github.com/adrienPoulenard/SPHnet](https://github.com/adrienPoulenard/SPHnet)
+* PRIN: [https://github.com/qq456cvb/PRIN](https://github.com/qq456cvb/PRIN)
+
+-----------------
 ### License
 
 Please refer to the [dataset license](https://github.com/AutodeskAILab/RobustPointSet/blob/main/LICENSE.md).
