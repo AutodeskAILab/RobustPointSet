@@ -92,6 +92,7 @@ We use the following implementations with minor modifications for our evaluation
 * Relation-Shape-CNN: [https://github.com/Yochengliu/Relation-Shape-CNN](https://github.com/Yochengliu/Relation-Shape-CNN)
 * SPHnet: [https://github.com/adrienPoulenard/SPHnet](https://github.com/adrienPoulenard/SPHnet)
 * PRIN: [https://github.com/qq456cvb/PRIN](https://github.com/qq456cvb/PRIN)
+* PointMask: [https://github.com/asgsaeid/PointMask](https://github.com/asgsaeid/PointMask)
 
 -----------------
 ### License
