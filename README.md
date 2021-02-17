@@ -63,7 +63,7 @@ Table 2:  Leave-one-out validation strategy classification results on our Robust
 
 ### Sample train and test codes
 
-The `trian.py` and `test.py` files are sample codes to train and test PointNet. The data-loaders etc. can be used to train other models. Codes are adopted from [here](https://github.com/yanx27/Pointnet_Pointnet2_pytorch).
+The `trian.py` and `test.py` files are sample codes to train and test PointNet. The data loaders etc. can be used to train other models. Codes are adopted from [here](https://github.com/yanx27/Pointnet_Pointnet2_pytorch).
 
 -----------------
 
