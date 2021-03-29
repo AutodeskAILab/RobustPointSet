@@ -1,4 +1,6 @@
-# RobustPointSet
+# RobustPointSet: A Dataset for Benchmarking Robustness of Point Cloud Classifiers, RobustML - ICLR 2021
+_Robust and Reliable Machine Learning in the Real World Workshop (RobustML), ICLR 2021_
+
 A benchmark dataset to facilitate augmentation-independent robustness analysis of point cloud classification models. RobustPointSet comes with 6 different transformations: Noise, Translation, Missing part, Sparse, Rotation, and Occlusion.
 
 <div align="center">
