@@ -102,6 +102,17 @@ We use the following implementations with minor modifications for our evaluation
 * PRIN: [https://github.com/qq456cvb/PRIN](https://github.com/qq456cvb/PRIN)
 * PointMask: [https://github.com/asgsaeid/PointMask](https://github.com/asgsaeid/PointMask)
 
+Note:
+For DensePoint, Relation-Shape-CNN, and PRIN, you will need to run the code on an older version (0.3 & 0.4) of PyTorch. Below are the steps to create a Conda envrionment with an older version of PyTorch:
+
+```
+- wget -c https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+- chmod +x Anaconda3-5.2.0-Linux-x86_64.sh
+- ./Anaconda3-5.2.0-Linux-x86_64.sh
+- conda create -n myenv python=3.6
+- conda install pytorch=0.4.1 cuda92 -c pytorch -y
+```
+
 -----------------
 ### License
 
